@@ -1,0 +1,29 @@
+1) Create a REST Controller to serve Customer resources.
+
+For this lab, you will need to have a Tomcat 9 server installed on your
+machine.  Talk to your instructor if you need help with this.
+
+You have a working Spring application with Customer, CustomerDAO
+and CustomerServices classes.  You also have a Spring Config file.
+You are allowed to change/replace any and all of the above if you want.
+
+Your job is to write a Controller which will allow
+for the following:
+	- Getting all Customers
+	- Getting a Customer by Id
+	- Getting a Customer by name
+	- Creating a new Customer
+	- Deleting a Customer by Id
+	- Updating a Customer
+	- For extra credit, implement partial update.
+
+You will have to make sure that the configuration in src/main/webapp/WEB-INF/web.xml
+matches your application.
+
+Look in the file for comments starting with TODO for clues.
+
+
+
+2) For now, test your controller using a web based REST Client.
+
+We will cover Unit/Integration testing and Mock objects later in the course.
